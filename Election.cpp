@@ -44,8 +44,6 @@ int main()
     }
     sort(election.begin(), election.end(), sorttuple);
 
-    // cout << get<2>(election[0]) << ' ' << get<2>(election[1]) << '\n';
-
     if (get<2>(election[0]) == get<2>(election[1]))
     {
         cout << "tie" << '\n';
