@@ -6,7 +6,10 @@ using namespace std;
 
 int main()
 {
-
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    std::cout.tie(nullptr);
+    
     long n, q, x, i, restart[2] = {0, -1};
     string token;
     cin >> n >> q;
